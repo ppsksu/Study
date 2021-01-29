@@ -16,15 +16,16 @@
   services.msc (서비스 관리창)  
 
   이런 것들을 입력 해 보고 실행 해 봄  
-
-- > @echo off  
+  
+- #### Echo에 대해  
+> @echo off  
   notepad 
   
  입력하고 저장
  (실행해 보면 콘솔창에 메세지가 뜨지 않고 메모장이 나옴)
   
 - #### Echo를 이용해서 콘솔창에 출력  
- > @echo off  
+> @echo off  
    echo Test  
    notepad  
    
@@ -32,7 +33,7 @@
 (실행해 보면 콘솔창에 메세지가 뜨지 않고 메모장이 나옴)
 
 - #### Echo를 이용해서 빈줄(Enter) 출력  
- > @echo off  
+> @echo off  
    echo Test  
    echo.
    echo Test  
