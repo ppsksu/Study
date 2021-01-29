@@ -57,9 +57,9 @@ echo. 부분에 빈줄이 출력 됨
 |set/p  |set/p 변수 = [화면출력  |변수에 사용자로부터 입력받은 값을 넣습니다.  |
 
 - #### set  
-> @echo off
-set var=10
-echo %var%
+> @echo off  
+set var=10  
+echo %var%  
 notepad  
 
 메모장과 함께 정상적으로 출력됨  
